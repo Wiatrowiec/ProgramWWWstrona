@@ -1,10 +1,11 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pl-PL">
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
 		 <link rel="stylesheet" href="styles.css">
+		 <script src="jcform.js"></script>
 		<title>Kontakt</title>
 </head>
 <body>
@@ -23,7 +24,8 @@
  <br/>
  <label><h1>E-mail</h1></label><input type="text" name="f_email" /> <br/>
  <label><h1>Wiadmość</h1></label><textarea rows="5" cols="15" name="uwagi"></textarea> <br/>
- <input type="submit" name="submit" value="Wyślij wiadmość" > </fieldset>
+ <input type="submit" name="submit" value="Wyślij formularz" onclick="return validate(this.form);">
+ </fieldset>
 <footer>
 		Autor: <address><h1>Jan Kowalski (jan.kowalski@example.com)</h1></address>
 		<p>Wszelkie prawa zastrzeżone</p>
