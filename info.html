@@ -9,25 +9,32 @@
 		<title>Kontakt</title>
 </head>
 <body>
-<left><h2>M4 Sherman - Amerykański Czołg II Wojny Światowej</h2></left>
+<h1>M4 Sherman - Amerykański Czołg II Wojny Światowej</h1>
 <ul>
   <li><a class="active" href="index.html">Strona Główna</a></li>
   <li><a href="info_hist.html">Informacje Historyczne</a></li>
   <li><a href="info.html">Kontakt</a></li>
 </ul>
 
-<h3>Napisz do mnie:</h3>
+<h2>Napisz do mnie:</h2>
 <br>
- <form action="#" method="get"> <fieldset name="Kontakt">
- 
- <label><h1>Imię i Nazwisko</h1></label><input type="text" name="f_in" />
+ <form action="#" method="get"> 
+ <fieldset name="Kontakt">
+ <p><label>Imię i Nazwisko</label></p>
+ <input type="text" name="f_in" />
  <br/>
- <label><h1>E-mail</h1></label><input type="text" name="f_email" /> <br/>
- <label><h1>Wiadmość</h1></label><textarea rows="5" cols="15" name="uwagi"></textarea> <br/>
+ <p><label>E-mail</label><br/></p> 
+ <input type="text" name="f_email" />
+ <br/>
+ <p><label>Wiadmość</label>
+ <br/>
+ <textarea rows="5" cols="15" name="uwagi"></textarea> </p>
+ <br/>
  <input type="submit" name="submit" value="Wyślij formularz" onclick="return validate(this.form);">
  </fieldset>
+ </form>
 <footer>
-		Autor: <address><h1>Jan Kowalski (jan.kowalski@example.com)</h1></address>
+		Autor:<p>Cezary Krysztoszek</p>  <address>(wiatrowiec1@gmail.com)</address>
 		<p>Wszelkie prawa zastrzeżone</p>
 </footer>
 </body>

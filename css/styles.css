@@ -31,17 +31,17 @@ h1 {
 }
 h2 {
 	color:white;
-	size: 32px;
+	font-size: 32px;
 }
 h3
 {
 	color:white;
-	size:15px;
+	font-size:15px;
 }
 h4
 {
 	color: white;
-	size: 8px;
+	font-size: 16px;
 }
 
 p {
@@ -76,13 +76,29 @@ table, th, tr {
   border: 1px solid red;
   color:red;
 }
-tm
+th
 {
-color: red;
+	color: white;
 }
+tr
+{
+color: white;
+}
+
 thh
 {
 border: 1px #FF9900;
 color:	#FF9900
 }
 div {border: 2px solid #bbb; border-radius: 8px}
+
+img 
+{
+	float: right;
+	width: 45%;
+	height: 35%;
+}
+address
+{
+	color: white;
+}
